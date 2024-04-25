@@ -21,7 +21,7 @@ const thisLib: { [key: string]: unknown } = Lib.init({
 	],
 	types: ["be.wl.space.ExampleColor"],
 	interfaces: [],
-	controls: ["be.wl.space.Example"],
+	controls: ["be.wl.space.Example","be.wl.space.Space","be.wl.space.SpaceItem"],
 	elements: [],
 	noLibraryCSS: false // if no CSS is provided, you can disable the library.css load here
 }) as { [key: string]: unknown };

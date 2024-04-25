@@ -7,7 +7,7 @@
 	"types": "dist/index.d.ts",
 	"scripts": {
 		"clean": "rimraf dist coverage",
-		"build": "ui5 build --clean-dest",
+		"build": "ui5 build --config ui5-build.yaml --clean-dest",
 		"build:ts-interfaces": "npx @ui5/ts-interface-generator",
 		"start": "ui5 serve -o test-resources/my/bookshop/lib/Example.html",
 		"start:dist": "npm start -- --config ui5-dist.yaml",
@@ -34,6 +34,7 @@
 		"npm-run-all": "^4.1.5",
 		"rimraf": "^5.0.5",
 		"typescript": "^5.3.3",
+		"ui5-control-generator": "^1.0.4",
 		"ui5-middleware-livereload": "^3.0.2",
 		"ui5-tooling-transpile": "^3.3.3"
 	}
